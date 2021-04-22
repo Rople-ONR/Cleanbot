@@ -45,7 +45,7 @@ async def on_message(message):
      embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359")
      await message.channel.send(embed=embed)
  if message.content.startswith ("c! 청소"):
-     embed = discord.Embed(title="알림", description="Allert", color=0xE67E22)
+     embed = discord.Embed(title="알림", description="  ", color=0xE67E22)
      embed.add_field(name="올바른 사용법", value="`c!청소 [지우고 싶은 메시지 겟수]`",inline=False)
      embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359")
      await message.channel.send(embed=embed)
