@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.idle, activity=discord.Activity(
-        type=discord.ActivityType.watching, name="♧《𝗧𝗥𝗔𝗩𝗘𝗟 𝗡𝗢𝗧𝗜𝗖𝗘》♤"
+        type=discord.ActivityType.watching, name=f"{len(client.guilds)} servers!"
     ))
     print("ready")
 
