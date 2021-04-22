@@ -11,11 +11,10 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print("봇 준비됨")
-    print(client.user)
-    print("=================")
-    game = discord.Game("c!help")
-    await client.change_presence(status=discord.Status.idle, activity=game)
+    await client.change_presence(status=discord.Status.idle, activity=discord.Activity(
+        type=discord.ActivityType.watching, name="c!help"
+    ))
+    print("ready")
 
 
 
