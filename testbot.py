@@ -41,6 +41,7 @@ async def on_message(message):
      embed = discord.Embed(title="명령어 도움", description="명령어 사용법 안내", color=0xE67E22)
      embed.add_field(name="c!청소 : 특정 메시지를 삭제합니다", value="`c!청소 [지우고 싶은 메시지 겟수]`",inline=False)
      embed.add_field(name="c!help : 이 메시지를 보넵니다", value="`명령어 사용법 안내`",inline=False)
+     embed.add_field(name="기타", value="[봇 초대하기](https://discord.com/api/oauth2/authorize?client_id=831516504968265778&permissions=8&scope=bot)",inline=False)
      embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359")
      await message.channel.send(embed=embed)
  if message.content.startswith ("c! 청소"):
