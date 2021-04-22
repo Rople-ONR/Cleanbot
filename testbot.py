@@ -15,7 +15,7 @@ async def on_ready():
     print(client.user)
     print("=================")
     game = discord.Game("c!help")
-    await client.change_presence(status=discord.Status.idle, activity=listening)
+    await client.change_presence(status=discord.Status.idle, activity=game)
 
 
 
