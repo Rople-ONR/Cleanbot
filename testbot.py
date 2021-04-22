@@ -20,7 +20,6 @@ async def on_ready():
 
 
 @client.event
-@commands.cooldown(1, 30, commands.BucketType.user)
 async def on_message(message):
  if message.content.startswith ("c!청소"):
         i = (message.author.guild_permissions.administrator)
