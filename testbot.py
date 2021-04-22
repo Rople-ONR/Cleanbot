@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.idle, activity=discord.Activity(
-        type=discord.ActivityType.watching, name="c!help"
+        type=discord.ActivityType.watching, name="c!help | 2개 서버"
     ))
     print("ready")
 
