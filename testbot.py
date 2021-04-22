@@ -49,10 +49,7 @@ async def on_message(message):
      embed.add_field(name="올바른 사용법", value="`c!청소 [지우고 싶은 메시지 겟수]`",inline=False)
      embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359")
      await message.channel.send(embed=embed)
-if message.content.startswith ("c!초대"):
-     embed = discord.Embed(title="봇 초대", description="[봇 초대하기](https://discord.com/api/oauth2/authorize?client_id=831516504968265778&permissions=8&scope=bot)", color=0xE67E22)
-     embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359")
-     await message.channel.send(embed=embed)
+
 
 
 
