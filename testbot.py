@@ -24,7 +24,7 @@ async def on_message(message):
         i = (message.author.guild_permissions.administrator)
 
         if i is True:
-            amount = message.content[4:]
+            amount = message.content[2:]
             await message.channel.purge(limit=1)
             await message.channel.purge(limit=int(amount))
 
