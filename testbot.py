@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Activity(
-        type=discord.ActivityType.watching, name=f"Client Terminal Error (-238^#89239)"
+        type=discord.ActivityType.watching, name="Client Terminal Error (-238^#89239)"
     ))
     print("ready")
 
