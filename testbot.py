@@ -26,7 +26,7 @@ async def on_message(message):
         if i is True:
             amount = message.content[4:]
             await message.channel.purge(limit=1)
-            await message.channel.purge(limit=int(amount))
+            await message.channel.purge(limit=int(80))
 
             embed = discord.Embed(title="메시지 삭제됨", description="메시지 {}개가\n관리자 {}님에 의해 삭제되었습니다.".format(amount, message.author), color=0xE74C3C)
             embed.set_footer(text="개발자 ㄹㅇㅋㅋ#4359", icon_url="https://cdn.discordapp.com/attachments/763628372713930765/831523720114733066/ab778a5905f2c6cab34b61751340fcf0.png")
