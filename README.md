@@ -1,1 +1,2 @@
 THIS IS TRASH LMAO
+폐기된 프로젝트
